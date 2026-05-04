@@ -1,20 +1,28 @@
-.identificacao{
-color: rgb(255, 216, 228);
+identificacao{
+    color: #000000;
 }
 
 .galeria{
-    width: 50%;
+    width: 100%;
 }
 
 body{
-    background-color: rgb(255, 236, 235);
-    color: rgb(255, 149, 149);
-display: flex;
-align-items: center;
-justify-content: space-around;
+    background-color: rgb(255, 210, 227);
+    color: #2e2a2b;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
 }
 
 .links{
-    display:flex
-    
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(255, 103, 103);
+    color: #2e2a2b;
+    border-radius: 20px;
 }
